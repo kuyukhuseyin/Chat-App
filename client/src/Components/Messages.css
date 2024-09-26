@@ -1,0 +1,25 @@
+.messages-layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messages-header {
+    background-color: #001529;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+  
+  .messages-content {
+    padding: 24px;
+    overflow-y: auto;
+    flex: 1;
+    background-color: #f0f2f5;
+  }
+  
+  .ant-list-item-meta-title {
+    margin-bottom: 0;
+  }
+  
